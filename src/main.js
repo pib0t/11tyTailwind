@@ -20,7 +20,7 @@ Alpine.data('banner', function () {
     init() {
       if (!this.dismissed) {
         setTimeout(() => {
-          this.show = true;
+          this.show = false;
         }, 1500);
       }
     },
