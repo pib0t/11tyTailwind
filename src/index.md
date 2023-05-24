@@ -16,7 +16,8 @@ intro:
 ## Pages
 
 <a href="{{ './examplePage/' }}">Example Page</a>
-[Test.njk](./test.njk)
+</br>
+[Test](./test/)
 
 
 ## Misc.
