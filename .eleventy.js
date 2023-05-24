@@ -51,7 +51,7 @@ module.exports = function (config) {
       output: '_site',
     },
     passthroughFileCopy: true,
-    templateFormats: ['html', 'md', 'webc'],
+    templateFormats: ['html', 'md', 'webc','njk'],
     htmlTemplateEngine: 'webc',
     dataTemplateEngine: 'webc',
     markdownTemplateEngine: 'webc',
