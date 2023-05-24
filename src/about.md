@@ -1,6 +1,6 @@
 ---
 layout: 'layouts/home.webc'
-title: 'Home'
+title: 'About'
 meta:
   desc:
     '11st-Starter-Kit is a minimal starting point for building static websites

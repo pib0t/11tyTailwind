@@ -52,8 +52,8 @@ module.exports = function (config) {
     },
     passthroughFileCopy: true,
     templateFormats: ['html', 'md', 'webc','njk'],
-    htmlTemplateEngine: 'njk',
-    dataTemplateEngine: 'njk',
-    markdownTemplateEngine: 'njk',
+    htmlTemplateEngine: 'webc',
+    dataTemplateEngine: 'webc',
+    markdownTemplateEngine: 'webc',
   };
 };
