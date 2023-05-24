@@ -15,12 +15,12 @@ intro:
 
 ## Pages
 
-<a href="{{ './examplePage/' }}">Example Page</a>
+[Example Page](./examplePage/)
 </br>
 [Test](./test/)
 
 
-## Misc.
+#### Misc.
 
 [Eleventy](https://www.11ty.dev/) - [Vite](https://vitejs.dev/) -
 [Tailwind CSS](https://tailwindcss.com/) - [Alpine.js](https://github.com/alpinejs/alpine/)
