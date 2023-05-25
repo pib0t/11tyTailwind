@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ langcode }}">
+<html class="leading-tight text-gray-900 antialiased" lang="en">
     <head>
+    <title webc:is="meta-title"></title>
+
     </head>
     <body {% if noconsent==true %} class="noconsent" {% endif %}>
         <div class="wrapper">
@@ -10,5 +12,7 @@
             </main>
 
         </div>
+            <script type="module" src="/main.js" webc:keep></script>
+
     </body>
 </html>

@@ -15,8 +15,8 @@ title: 'Example'
   {% endif %} -->
 
   <ul>
-    {% for item in items %}
-      <li>{{ item }}</li>
+    {% for item in navigation.items %}
+      <li>{{ item.text }}</li>
     {% endfor %}
   </ul>
 {% endblock %}
