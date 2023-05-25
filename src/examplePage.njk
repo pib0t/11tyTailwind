@@ -1,17 +1,24 @@
+---
+layout: 'layouts/home.webc'
+title: 'Example'
+---
 
+<!DOCTYPE html>
+<html lang="en">
 <html>
+
 <head>
   <title>Example</title>
 </head>
 <body>
-  <h2>Hello!</h2>
+  <h1>Hello!</h1>
   <p>Let's try out some elements, layouts and styles.</p>
 
-  {% if isAdmin %}
+  <!--{% if isAdmin %}
     <p>Welcome, administrator!</p>
   {% else %}
     <p>Welcome, guest!</p>
-  {% endif %}
+  {% endif %} -->
 
   <ul>
     {% for item in items %}

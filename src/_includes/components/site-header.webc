@@ -1,3 +1,4 @@
+<!--
 <header>
   <nav class="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-16 items-center justify-between">
@@ -8,8 +9,8 @@
           src="/images/11st-logo.svg"
           height="32"
           width="32"
-        />
-        <figcaption>Starter-Kit</figcaption>
+        /> 
+        <figcaption>In Progress</figcaption>
       </figure>
       <ul class="flex space-x-4">
         <script webc:type="js" webc:is="template">
@@ -42,13 +43,14 @@
         </script>
         <li>
           <a
-            href="https://github.com/stefanfrede/11st-starter-kit/"
+            href="https://github.com/pib0t/11tyTailwind"
             class="text-base font-bold underline hover:text-green-900"
           >
-            GitHub
+            Project GitHub
           </a>
         </li>
       </ul>
     </div>
   </nav>
-</header>
+</header> 
+-->
