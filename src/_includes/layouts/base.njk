@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ langcode }}">
+    <head>
+    </head>
+    <body {% if noconsent==true %} class="noconsent" {% endif %}>
+        <div class="wrapper">
+
+            <main>
+                {% block content %}{% endblock %}
+            </main>
+
+        </div>
+    </body>
+</html>

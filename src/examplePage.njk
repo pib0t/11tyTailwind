@@ -1,16 +1,10 @@
 ---
-layout: 'layouts/home.webc'
 title: 'Example'
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<html>
+{% extends "layouts/base.njk" %}
 
-<head>
-  <title>Example</title>
-</head>
-<body>
+{% block content %}
   <h1>Hello!</h1>
   <p>Let's try out some elements, layouts and styles.</p>
 
@@ -25,5 +19,4 @@ title: 'Example'
       <li>{{ item }}</li>
     {% endfor %}
   </ul>
-</body>
-</html>
+{% endblock %}
