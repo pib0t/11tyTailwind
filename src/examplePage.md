@@ -2,7 +2,8 @@
 layout: 'layouts/home.webc'
 title: 'Example'
 ---
-  <h1>Hello!</h1>
+ ## Hello!
+ 
   <p>Let's try out some elements, layouts and styles.</p>
 
   <!--{% if isAdmin %}
