@@ -1,0 +1,15 @@
+---
+layout: 'layouts/home.webc'
+title: 'Example'
+meta:
+  desc:
+    'Example Page'
+intro:
+  title: 'Example Page'
+---
+<h3>Fetch API</h3>
+<p>Fetches the current Image Of The Day from the NASA website <a href="https://apod.nasa.gov/apod/astropix.html">APOD</a>. Today's image is:</p>
+<img src="{{getImage.hdurl}}"></img>
+<p><b>Here is the explanation from the official website:</b> "{{getImage.explanation}}"</p>
+
+
