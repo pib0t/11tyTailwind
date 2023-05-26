@@ -1,10 +1,7 @@
 ---
+layout: 'layouts/home.webc'
 title: 'Example'
 ---
-
-{% extends "layouts/base.njk" %}
-
-{% block content %}
   <h1>Hello!</h1>
   <p>Let's try out some elements, layouts and styles.</p>
 
