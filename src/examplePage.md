@@ -9,6 +9,6 @@ intro:
 ---
 
 ### Fetch
-<!--{% include_relative fetch.js %}
-<script src="fetch.js"></script>-->
-[NASA APOD]({{ imageUrl }})
+{% include "./_data/getImage.js" %}
+<!--<script src="fetch.js"></script>-->
+![APOD]({{getImage}})
